@@ -1,0 +1,8 @@
+streamlit>=1.35
+requests>=2.31
+pandas>=2.0
+plotly>=5.20
+python-dotenv>=1.0
+tzdata>=2024.1       # IANA time-zone database; needed on Windows so the 24-hour window uses the location's local hour
+groq>=0.11           # optional: AI explanations and chat
+pytest>=8.0          # only needed to run the tests
